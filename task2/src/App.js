@@ -2,7 +2,7 @@ import React from "react";
 import { Provider } from "react-redux"; // Importing the Provider
 import { useDispatch, useSelector } from "react-redux";
 import { increment, decrement, reset } from "./counterSlice";
-import store from "./store"; // Import the store
+import store from "./store"; //    Import the store
 
 function App() {
   const count = useSelector((state) => state.counter.value);
